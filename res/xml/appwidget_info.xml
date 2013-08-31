@@ -1,0 +1,13 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="80dp"
+    android:minHeight="40dp"
+    android:minResizeWidth="20dp"
+    android:minResizeHeight="20dp"
+    android:updatePeriodMillis="0"
+    android:previewImage="@drawable/ic_drawer"
+    android:initialLayout="@layout/activity_main"
+    android:configure="com.brianco.colorclock.MainActivity"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    android:initialKeyguardLayout="@layout/activity_main">
+</appwidget-provider>
