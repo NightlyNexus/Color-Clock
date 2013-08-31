@@ -23,20 +23,12 @@ For a copy of the GNU General Public License, see
 Libraries
 =========
 
-android-ColorPickerPreference
-
-net.margaritov.preference.colorpicker
-
-https://github.com/attenzione/android-ColorPickerPreference
-
-Apache License v2
+android-ColorPickerPreference (net.margaritov.preference.colorpicker): https://github.com/attenzione/android-ColorPickerPreference under Apache License v2
 
 
 Images
 ======
 
-ic_launcher.png
-Creative Commons
+ic_launcher.png under Creative Commons
 
-ic_drawer.png
-Creative Commons
+ic_drawer.png under Creative Commons
