@@ -24,8 +24,11 @@ Libraries
 =========
 
 android-ColorPickerPreference
+
 net.margaritov.preference.colorpicker
+
 https://github.com/attenzione/android-ColorPickerPreference
+
 Apache License v2
 
 
