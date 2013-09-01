@@ -86,8 +86,8 @@ public class MainActivity extends Activity {
 				
 				AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(MainActivity.this);
 				Bundle options = appWidgetManager.getAppWidgetOptions(mAppWidgetId);
-				int nwidth = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH);
-				int nheight = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT);
+				//int nwidth = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH);
+				//int nheight = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT);
                 /*RemoteViews views = new RemoteViews(getPackageName(),
                 		R.layout.activity_main);
                 views.setTextColor(R.id.textClock, color);
@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
                 Intent resultValue = new Intent();
                 resultValue.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, mAppWidgetId);
                 setResult(RESULT_OK, resultValue);
-                MyWidget.updateAppWidget(MainActivity.this, appWidgetManager, mAppWidgetId, color, nheight, nwidth);
+                MyWidget.updateAppWidget(MainActivity.this, appWidgetManager, mAppWidgetId, color, options);
                 finish();
 			}
         	
