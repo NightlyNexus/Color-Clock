@@ -30,17 +30,17 @@ android-ColorPickerPreference (net.margaritov.preference.colorpicker): https://g
 Change at line 124 of ColorPickerDialog.java:
 ```java
 //mOldColor.setOnClickListener(this);
-		View.OnClickListener ohBoy = new View.OnClickListener(){
-			@Override
-			public void onClick(View v) {
-				if (mListener != null) {
-					mListener.onColorChanged(mOldColor.getColor());
-				}
-				dismiss();
-			}
-		};
-		//JIGGA
-		mOldColor.setOnClickListener(ohBoy);
+View.OnClickListener ohBoy = new View.OnClickListener(){
+	@Override
+	public void onClick(View v) {
+		if (mListener != null) {
+			mListener.onColorChanged(mOldColor.getColor());
+		}
+		dismiss();
+	}
+};
+//JIGGA
+mOldColor.setOnClickListener(ohBoy);
 ```
 
 
