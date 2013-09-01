@@ -3,6 +3,8 @@ Color Clock
 
 An Android TextClock widget with a user-defined color.
 
+Get Color Clock on Google Play: https://play.google.com/store/apps/details?id=com.brianco.colorclock&hl=en
+
 Copyright (C) 2013 Eric Cochran <ericphysics@gatech.edu>
 
 Color Clock is free software: you can redistribute it and/or modify
