@@ -1,7 +1,7 @@
-Color-Clock
+Color Clock
 ===========
 
-An Android TextClock widget with a user-defined color
+An Android TextClock widget with a user-defined color.
 
 Copyright (C) 2013 Eric Cochran <ericphysics@gatech.edu>
 
