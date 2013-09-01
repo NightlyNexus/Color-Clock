@@ -27,6 +27,20 @@ Libraries
 
 android-ColorPickerPreference (net.margaritov.preference.colorpicker): https://github.com/attenzione/android-ColorPickerPreference under Apache License v2
 
+Change at line 124 of ColorPickerDialog.java:
+    //mOldColor.setOnClickListener(this);
+		View.OnClickListener ohBoy = new View.OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				if (mListener != null) {
+					mListener.onColorChanged(mOldColor.getColor());
+				}
+				dismiss();
+			}
+		};
+		//JIGGA
+		mOldColor.setOnClickListener(ohBoy);
+
 
 Images
 ======
