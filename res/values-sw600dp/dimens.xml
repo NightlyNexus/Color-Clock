@@ -4,6 +4,6 @@
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw600dp devices (e.g. 7" tablets) here.
     -->
-    <dimen name="lock_screen_size">86dp</dimen>
+    <dimen name="lock_screen_size">72dp</dimen>
 
 </resources>
